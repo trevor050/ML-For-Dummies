@@ -10,16 +10,6 @@
 # You've got padding (everybody in their seats!), embedding (connecting on an emotional level), and you're avoiding overfitting (we don't want any family feuds here).
 
 import tensorflow as tf
-# Welcome to Long Short-Term Memory (LSTM), the sagacious grandparent of the neural network family.
-# In a family full of bright minds like BERT, CNN, and RNN, LSTM stands out as the memory keeper, holding the wisdom of the ages.
-# Imagine a big family gathering where everyone's sharing memories, secrets, and recipes (and maybe a few white lies).
-# The embedding layer is where words get turned into numbers.
-# The LSTM layer is where the neural network remembers what it's seen so far.
-# The dropout layer is where the neural network forgets some of what it's seen so far. (So it doesn't overfit.)
-#Overfitting is when a neural network gets too good at recognizing the training data, and it doesn't do well with new data. Instead of learning, it memorizes.
-# The dense layer is where the neural network makes predictions.
-# Just like a family reunion, LSTM can be fun, complex, and a little bit overwhelming.
-# You've got padding (everybody in their seats!), embedding (connecting on an emotional level), and you're avoiding overfitting (we don't want any family feuds here).
 print("Importing libraries")
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
