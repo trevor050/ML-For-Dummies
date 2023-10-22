@@ -1,3 +1,41 @@
+#Notes On how to make a model in tensorfow
+
+# Table of Contents
+
+- [The Input Layer](#the-input-layer)
+- [Hidden Layers](#hidden-layers)
+  - [Tips & Tricks for Hidden Layers:](#tips--tricks-for-hidden-layers)
+    - [Activation Functions](#activation-functions)
+    - [Number of Neurons and Layers](#number-of-neurons-and-layers)
+    - [Dropout for Regularization](#dropout-for-regularization)
+- [Special Hidden Layers](#special-hidden-layers)
+  - [LSTM (Long Short-Term Memory)](#lstm-long-short-term-memory)
+  - [CNN (Convolutional Neural Networks)](#cnn-convolutional-neural-networks)
+  - [GRU (Gated Recurrent Units)](#gru-gated-recurrent-units)
+  - [Attention Mechanisms](#attention-mechanisms)
+  - [Bidirectional LSTM (Bi-LSTM)](#bidirectional-lstm-bi-lstm)
+  - [Batch Normalization](#batch-normalization)
+  - [MaxPooling and AveragePooling](#maxpooling-and-averagepooling)
+  - [Embedding Layer](#embedding-layer)
+  - [Residual Connections (Skip Connections)](#residual-connections-skip-connections)
+  - [TimeDistributed Layer](#timedistributed-layer)
+  - [LeakyReLU Activation](#leakyrelu-activation)
+- [Output Layer](#output-layer)
+- [Model Compilation in TensorFlow](#model-compilation-in-tensorflow)
+  - [Key Components in Compilation](#key-components-in-compilation)
+    - [Optimizer](#optimizer)
+      - [Types](#types)
+        1. [Stochastic Gradient Descent (SGD)](#stochastic-gradient-descent-sgd)
+        2. [Adam (Adaptive Moment Estimation)](#adam-adaptive-moment-estimation)
+        3. [RMSprop (Root Mean Square Propagation)](#rmsprop-root-mean-square-propagation)
+    - [Loss Function](#loss-function)
+    - [Metrics](#metrics)
+    - [Compilation Code Example in TensorFlow](#compilation-code-example-in-tensorflow)
+    - [Advanced Metrics](#advanced-metrics)
+- [Notes On How to Make a Model in TensorFlow](#notes-on-how-to-make-a-model-in-tensorflow)
+
+
+
 # **The Input Layer**
 
 **What is it?**
