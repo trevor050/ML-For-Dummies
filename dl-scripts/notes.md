@@ -36,7 +36,7 @@
 
 **What is it?**
 
-The input layer is the gateway for data into your neural network. Think of it as the greeter at a swanky event—it says "hi" to your data and shows it where to go.
+The input layer is the gateway for data into your neural network. Think of it as the greeter at an event—it says "hi" to your data and shows it where to go.
 
 **Why do you need it?**
 
